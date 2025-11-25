@@ -105,4 +105,4 @@ if sub:
     input=np.array(new_data).reshape(1,-1)
     y_pred=models.predict(input)
     st.success(y_pred)
-    st.success(r2_score(y_test,y_pred))
+
