@@ -15,7 +15,7 @@ from sklearn.feature_selection import RFE
 from sklearn.model_selection import train_test_split,StratifiedKFold,GridSearchCV,KFold,cross_val_score,RandomizedSearchCV,LeaveOneOut
 from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error,roc_auc_score
 
-data=pd.read_csv(r"C:\Users\sachi\Downloads\train.csv")
+data=pd.read_csv("train.csv")
 st.title("HOUSE PRICE PREDICTION")
 st.set_page_config("house_price_prediction",layout="centered")
 st.subheader("Data Preview")
